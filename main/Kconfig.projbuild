@@ -1,0 +1,16 @@
+menu "Configuración de LEDs"
+
+config LED_1_GPIO
+    int "GPIO del LED 1"
+    default 22
+    range 0 39
+    help
+        Pin GPIO utilizado para el primer LED.
+
+config LED_2_GPIO
+    int "GPIO del LED 2"
+    default 23
+    range 0 39
+    help
+        Pin GPIO utilizado para el segundo LED.
+endmenu
