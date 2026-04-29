@@ -5,7 +5,9 @@ Ejemplo básico de ESP-IDF que permite configurar el pin de un LED dinámicament
 ## Requisito Previo
 
 Asegúrate de haber creado tu archivo de configuración en la siguiente ruta:
-`main/Kconfig.projbuild`
+'''bash 
+main/Kconfig.projbuild
+'''
 
 ## Comandos Rápidos
 
